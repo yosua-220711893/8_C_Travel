@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:guidedlayout2_2045/View/home.dart';
+import 'package:delapan_c_travel_2/View/login.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomeView(),
+      home: LoginView(),
 
     );
   }
